@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { throwError } from 'rxjs';
 import {WorkDays,Weekends} from '../enum/days'
 import {Constants} from '../constants/constants'
-import { DueDate } from '../models/duedate';
-import { WeekDay } from '@angular/common';
+
 
 @Component({
   selector: 'app-duedatecalculator',
